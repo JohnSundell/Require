@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "Require"
-  s.version      = "0.1"
-  s.summary      = ""
+  s.version      = "1.0.0"
+  s.summary      = "Require optional values to be non-nil, or crash gracefully"
   s.description  = <<-DESC
-    Your description here.
+    Require optional values to be non-nil, or crash gracefully
   DESC
   s.homepage     = "https://github.com/johnsundell/require"
   s.license      = { :type => "MIT", :file => "LICENSE" }
