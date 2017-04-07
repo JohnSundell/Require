@@ -1,6 +1,6 @@
 # Require
 
-Easily require an `Optional` value to be non-`nil`, and crash gracefully if that's false.
+Require lets you easily require `Optional` values to be non-`nil`, or crash gracefully.
 
 Sometimes you have optional values in your code that are not really optional, and will cause your
 application to enter an undefined state if `nil`. Require makes it easy to avoid such states, by
