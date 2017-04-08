@@ -1,5 +1,10 @@
 # Require
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/Require.svg)](https://cocoapods.org/pods/Require)
+[![Carthage](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift PM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager)
+[![Twitter](https://img.shields.io/badge/contact-@johnsundell-blue.svg?style=flat)](https://twitter.com/johnsundell)
+
 Require lets you easily require `Optional` values to be non-`nil`, or crash gracefully.
 
 Sometimes you have optional values in your code that are not really optional, and will cause your
