@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Require"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Require optional values to be non-nil, or crash gracefully"
   s.description  = <<-DESC
     Easily require optional values to be non-nil, or crash gracefully
