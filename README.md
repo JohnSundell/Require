@@ -1,4 +1,4 @@
-# Require
+# ✅ Require
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/Require.svg)](https://cocoapods.org/pods/Require)
 [![Carthage](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
