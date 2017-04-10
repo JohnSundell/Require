@@ -33,8 +33,8 @@ public extension Optional {
                     reason: message,
                     userInfo: nil
                 )
+                exception.raise()
             #endif
-            exception.raise()
             preconditionFailure(message)
         }
         
