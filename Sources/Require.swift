@@ -22,7 +22,7 @@ public extension Optional {
                  file: StaticString = #file,
                  line: UInt = #line) -> Wrapped {
         guard let unwrapped = self else {
-            let message = buildMessage(hintExpression, file, line)
+            let message = buildMessage(hintExpression(), file, line)
             
             #if !os(Linux)
             let exception = NSException(
@@ -59,7 +59,7 @@ public extension Optional {
             return unwrapped
         }
         
-        let message = buildMessage(hintExpression, file, line)
+        let message = buildMessage(hintExpression(), file, line)
         
         assertionFailure(message)
         
