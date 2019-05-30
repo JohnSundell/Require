@@ -45,6 +45,5 @@ Clone the repo and drag the file `Require.swift` into your Xcode project.
 
 ## Help, feedback or suggestions?
 
-- [Open an issue](https://github.com/JohnSundell/Require/issues/new) if you need help, if you found a bug, or if you want to discuss a feature request.
 - [Open a PR](https://github.com/JohnSundell/Require/pull/new/master) if you want to make some change to Require.
 - Contact [@johnsundell on Twitter](https://twitter.com/johnsundell) for discussions, news & announcements about Require.
